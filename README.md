@@ -4,12 +4,6 @@ Backend and infrastructure engineer working in TypeScript and Go, with a focus o
 
 I am a student developer in India, graduating in May 2027. I like problems involving failure handling, event pipelines, and systems that need to stay useful under imperfect conditions, and I am looking for backend, infrastructure, and voice AI roles.
 
-## Highlights
-
-- Paid Internet Archive Fellow contributing to [OpenLibrary](https://github.com/internetarchive/openlibrary).
-- [34 merged pull requests](https://github.com/pulls?q=is%3Apr+author%3AKrishnaShuk+is%3Amerged) across 14 repositories, verified from GitHub.
-- Designed and merged LiveKit's [LLM FallbackAdapter](https://github.com/livekit/agents-js/pull/916), which tries providers in priority order, marks failures unavailable, and probes recovery with a real request.
-- Shipped 10 merged PRs to [LiveKit agents-js](https://github.com/livekit/agents-js), covering LLM failover, Deepgram Flux support, worker sizing, and audio-stream cleanup.
 
 ## Selected work
 
@@ -40,7 +34,7 @@ Long-running work is separated from the API through BullMQ and Redis: a worker u
 ## Open source
 
 - **[LiveKit agents-js](https://github.com/livekit/agents-js)**: [FallbackAdapter](https://github.com/livekit/agents-js/pull/916), [Deepgram Flux STT v2](https://github.com/livekit/agents-js/pull/938), and an [AudioResampler lifecycle fix](https://github.com/livekit/agents-js/pull/1453).
-- **[OpenLibrary](https://github.com/internetarchive/openlibrary)**: six merged PRs, including [evicting failed search carousels from cache](https://github.com/internetarchive/openlibrary/pull/11900) and [language-aware random books](https://github.com/internetarchive/openlibrary/pull/11630).
+- **[OpenLibrary](https://github.com/internetarchive/openlibrary)**: Multiple merged PRs, including [evicting failed search carousels from cache](https://github.com/internetarchive/openlibrary/pull/11900) and [language-aware random books](https://github.com/internetarchive/openlibrary/pull/11630).
 - **[PEcAn](https://github.com/PecanProject/pecan)**: two merged PRs that replaced manually managed test directories with automatically cleaned temporary directories.
 - **[cx-core](https://github.com/cxlinux-ai/cx-core)**: added [retry classification with exponential backoff](https://github.com/cxlinux-ai/cx-core/pull/658) and an [interactive troubleshooting assistant](https://github.com/cxlinux-ai/cx-core/pull/584).
 
