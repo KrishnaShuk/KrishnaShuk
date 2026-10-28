@@ -7,6 +7,14 @@ I am a student developer in India, graduating in May 2027. I like problems invol
 
 ## Selected work
 
+### [Spectre MCP](https://spectremcp.site)
+
+A spec-compliant Model Context Protocol server that gives AI agents access to LinkedIn data through 11 tools, built and deployed solo.
+
+Requests are routed across multiple data providers with automatic failover, access is secured with OAuth 2.1 and PKCE, and usage is metered through a credit-based billing system. The server runs on GCP with the web app on Vercel.
+
+*Stack: TypeScript, Node.js, PostgreSQL, Next.js, OAuth 2.1, GCP.*
+
 ### [VoxObs](https://github.com/KrishnaShuk/VoxObs)
 
 A TypeScript toolkit for observing LiveKit voice agents, attributing latency and failures across STT, LLM, TTS, endpointing, and voice-to-voice turns.
